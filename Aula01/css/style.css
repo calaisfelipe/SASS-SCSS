@@ -1,0 +1,49 @@
+.btn, .new-btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  color: orange;
+  background-color: #fff;
+}
+
+.btn, .new-btn {
+  margin: 1rem 1rem;
+  opacity: 0.8;
+}
+.btn:hover, .new-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.btn-laranja, .new-btn {
+  border: none;
+  background-color: orange;
+  color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.btn-1 {
+  background-color: red;
+}
+
+.btn-2 {
+  background-color: blue;
+}
+
+.btn-3 {
+  background-color: green;
+}
+
+.btn-4 {
+  background-color: yellow;
+}
+
+.btn-5 {
+  background-color: black;
+}
+
+.btn-6 {
+  background-color: purple;
+}
+
+/*# sourceMappingURL=style.css.map */

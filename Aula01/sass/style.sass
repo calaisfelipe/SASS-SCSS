@@ -1,0 +1,44 @@
+@use 'variables'
+@use 'mixin'
+@import './button'
+    
+      
+.btn    
+   
+    @include mixin.dimensoes
+
+    &:hover // .btn:hover
+        background-color: #000
+        color: variables.$color002
+
+    &-laranja
+        border: none
+        background-color: orange
+        color: black
+        text-decoration: underline
+        text-transform: uppercase
+        
+
+.new-btn
+    @extend .btn
+    @extend .btn-laranja
+
+
+.btn-1
+    @include mixin.bg-color(red)   
+
+.btn-2
+    @include mixin.bg-color(blue) 
+
+.btn-3
+    @include mixin.bg-color(green) 
+
+.btn-4
+    @include mixin.bg-color(yellow) 
+
+.btn-5
+    @include mixin.bg-color(black) 
+    
+.btn-6
+    @include mixin.bg-color(purple)      
+
