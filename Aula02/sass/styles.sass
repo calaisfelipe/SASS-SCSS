@@ -1,0 +1,15 @@
+@use 'mixin'
+@use 'variable'
+
+
+
+.btn
+    @include mixin.design(#007bff, #ff0)    
+
+
+.btn-2
+    @include mixin.design(variable.$color001, #888)     
+
+
+.link
+    @include mixin.design(green, #c8c8c8)
